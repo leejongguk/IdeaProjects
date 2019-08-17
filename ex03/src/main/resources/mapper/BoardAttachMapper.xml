@@ -4,23 +4,40 @@
 <!DOCTYPE mapper
         PUBLIC "-//batis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace = "mapper.BoardAttachMapper">
+<mapper namespace="mapper.BoardAttachMapper">
 
-<insert id="insert">
+    <insert id="insert">
 
-    insert into attach (uuid, uploadpath,filename, filetype, bno) values (#{uuid},#{uploadPath},#{fileName},#{fileType}, #{bno})
+        insert into attach (uuid, uploadpath, filename, filetype, bno)
+        values (#{uuid}, #{uploadPath}, #{fileName}, #{fileType}, #{bno})
 
-</insert>
+    </insert>
 
 
+    <delete id="delete">
 
-<delete id="delete">
+        delete
+        from ATTACH
+        where uuid = #{uuid}
 
-        delete from ATTACH where uuid= #{uuid}
+    </delete>
 
-</delete>
-
-    <select id = "findByBno" resultType = "domain.BoardAttachVO">
-        select * from ATTACH where bno=#{bno}
+    <select id="findByBno" resultType="domain.BoardAttachVO">
+        select *
+        from ATTACH
+        where bno = #{bno}
     </select>
+
+    <select id="getOldFiles" resultType="domain.BoardAttachVO">
+        select *
+        from attach
+        where uploadpath = to_char(sysdate - 1, 'yyyy\mm\dd')
+    </select>
+
+    <delete id="deleteAll">
+
+        delete attach where bno = #{bno}
+
+    </delete>
+
 </mapper>

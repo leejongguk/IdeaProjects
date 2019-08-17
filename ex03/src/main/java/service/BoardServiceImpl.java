@@ -13,16 +13,15 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
-@Service
 @Log4j
-class BoardServiceImpl implements BoardService {
+@Service
+public class BoardServiceImpl implements BoardService {
 
 	@Setter(onMethod_ = @Autowired)
 	private BoardMapper mapper;
 
 	@Setter(onMethod_ = @Autowired)
 	private BoardAttachMapper attachMapper;
-
 
 	@Transactional
 	@Override
@@ -52,18 +51,51 @@ class BoardServiceImpl implements BoardService {
 
 	}
 
+	@Transactional
 	@Override
 	public boolean modify(BoardVO board) {
 
 		log.info("modify......" + board);
 
-		return mapper.update(board) == 1;
+		attachMapper.deleteAll(board.getBno());
+
+		boolean modifyResult = mapper.update(board) == 1;
+
+		if (modifyResult && board.getAttachList().size() > 0) {
+
+			board.getAttachList().forEach(attach -> {
+
+				attach.setBno(board.getBno());
+				attachMapper.insert(attach);
+			});
+		}
+
+		return modifyResult;
 	}
 
+	// @Override
+	// public boolean modify(BoardVO board) {
+	//
+	// log.info("modify......" + board);
+	//
+	// return mapper.update(board) == 1;
+	// }
+
+	// @Override
+	// public boolean remove(Long bno) {
+	//
+	// log.info("remove...." + bno);
+	//
+	// return mapper.delete(bno) == 1;
+	// }
+
+	@Transactional
 	@Override
 	public boolean remove(Long bno) {
 
 		log.info("remove...." + bno);
+
+		attachMapper.deleteAll(bno);
 
 		return mapper.delete(bno) == 1;
 	}
@@ -93,9 +125,18 @@ class BoardServiceImpl implements BoardService {
 
 	@Override
 	public List<BoardAttachVO> getAttachList(Long bno) {
-		log.info("get Attach list by bno: " + bno);
+
+		log.info("get Attach list by bno" + bno);
+
 		return attachMapper.findByBno(bno);
 	}
 
-}
+	@Override
+	public void removeAttach(Long bno) {
 
+		log.info("remove all attach files");
+
+		attachMapper.deleteAll(bno);
+	}
+
+}

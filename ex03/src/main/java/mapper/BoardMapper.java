@@ -1,5 +1,6 @@
 package mapper;
 
+import domain.BoardAttachVO;
 import domain.BoardVO;
 import domain.Criteria;
 import org.apache.ibatis.annotations.Param;
@@ -26,5 +27,6 @@ public interface BoardMapper {
 
 	public void updateReplyCnt(@Param("bno") Long bno, @Param("amount") int amount);
 
+	public List<BoardAttachVO> findByBno(Long bno);
+
 }
- 
