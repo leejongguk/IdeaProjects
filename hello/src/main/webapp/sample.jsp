@@ -9,8 +9,8 @@
 </head>
 <body>
 	<script type="text/javascript">
-		// location.href="sample";
-		location.href = "list";
+		location.href="sample";
+		// location.href = "list";
 	</script>
 </body>
 </html>
