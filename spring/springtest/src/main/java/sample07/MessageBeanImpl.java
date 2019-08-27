@@ -1,6 +1,6 @@
 package sample07;
 
-public class MesageBeanImpl implements MessageBean {
+public class MessageBeanImpl implements MessageBean {
 	private String name;
 	private String greet;
 

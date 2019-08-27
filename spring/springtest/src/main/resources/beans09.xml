@@ -3,11 +3,11 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 	<bean id="mb" class="sample09.MessageBeanImpl">
-		<property name="name" value="홍길동"></property>
-		<property name="greet" value="Hello !"></property>
-		<property name="output" ref="out"></property>
+		<property name="name" value="홍길동"/>
+		<property name="greet" value="Hello !"/>
+		<property name="output" ref="out"/> <!-- FileOutputer의 id  쥬입-->
 	</bean>
 	<bean id="out" class="sample09.FileOutputer">
-		<property name="fileName" value="test.txt"></property>
+		<property name="fileName" value="test.txt"/>
 	</bean>
 </beans>

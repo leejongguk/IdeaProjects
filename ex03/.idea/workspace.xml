@@ -6,7 +6,64 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="311868ef-ffed-4b86-b92a-fb0949873482" name="Default Changelist" comment="" />
+    <list default="true" id="311868ef-ffed-4b86-b92a-fb0949873482" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../spring/springtest/src/main/resources/beans07.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ex03_war_exploded/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ex03_war_exploded/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ex03_war_exploded/WEB-INF/classes/controller/BoardController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ex03_war_exploded/WEB-INF/classes/controller/BoardController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ex03_war_exploded/WEB-INF/classes/controller/UploadController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ex03_war_exploded/WEB-INF/classes/controller/UploadController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ex03_war_exploded/WEB-INF/classes/domain/BoardAttachVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ex03_war_exploded/WEB-INF/classes/domain/BoardAttachVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ex03_war_exploded/WEB-INF/classes/domain/BoardVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ex03_war_exploded/WEB-INF/classes/domain/BoardVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ex03_war_exploded/WEB-INF/classes/domain/Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ex03_war_exploded/WEB-INF/classes/domain/Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ex03_war_exploded/WEB-INF/classes/mapper/BoardAttachMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ex03_war_exploded/WEB-INF/classes/mapper/BoardAttachMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ex03_war_exploded/WEB-INF/classes/mapper/BoardAttachMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ex03_war_exploded/WEB-INF/classes/mapper/BoardAttachMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ex03_war_exploded/WEB-INF/classes/mapper/BoardMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ex03_war_exploded/WEB-INF/classes/mapper/BoardMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ex03_war_exploded/WEB-INF/classes/mapper/BoardMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ex03_war_exploded/WEB-INF/classes/mapper/BoardMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ex03_war_exploded/WEB-INF/classes/service/BoardService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ex03_war_exploded/WEB-INF/classes/service/BoardService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ex03_war_exploded/WEB-INF/classes/service/BoardServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ex03_war_exploded/WEB-INF/classes/service/BoardServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ex03_war_exploded/WEB-INF/views/board/modify.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ex03_war_exploded/WEB-INF/views/board/modify.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/BoardController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/BoardController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/UploadController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/UploadController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/domain/BoardAttachVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/domain/BoardAttachVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/domain/BoardVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/domain/BoardVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/domain/Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/domain/Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/BoardAttachMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/BoardAttachMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/BoardAttachMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/BoardAttachMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/BoardMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/BoardMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/BoardMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/BoardMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/BoardService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/service/BoardService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/BoardServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/service/BoardServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/springtest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/springtest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/springtest/springtest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/springtest/springtest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/springtest/src/main/java/sample07/Ex01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/springtest/src/main/java/sample07/Ex01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/springtest/src/main/java/sample07/MesageBeanImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/springtest/src/main/java/sample07/MessageBeanImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/springtest/src/main/java/sample07/beans07.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/springtest/src/main/resources/beans12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/springtest/src/main/java/sample08/MessageBeanImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/springtest/src/main/java/sample08/MessageBeanImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/springtest/src/main/java/sample09/Ex01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/springtest/src/main/java/sample09/Ex01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/springtest/src/main/java/sample09/beans09.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/springtest/src/main/resources/beans09.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/springtest/src/main/java/sample10/Ex01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/springtest/src/main/java/sample10/Ex01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/springtest/src/main/java/sample10/beans10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/springtest/src/main/resources/beans10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/springtest/src/main/java/sample11/Ex01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/springtest/src/main/java/sample11/Ex01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/springtest/src/main/java/sample11/beans11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/springtest/src/main/resources/beans11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/springtest/src/main/java/sample12/Ex01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/springtest/src/main/java/sample12/Ex01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/springtest/src/main/java/sample12/beans12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/springtest/src/main/java/sample12/service/BookSericeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/springtest/src/main/java/sample12/service/BookServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/springtest/src/main/java/sample13/Ex01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/springtest/src/main/java/sample13/Ex01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/springtest/src/main/java/sample13/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/springtest/src/main/java/sample13/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/springtest/src/main/java/sample13/beans13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/springtest/src/main/resources/beans13.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/springtest/src/main/java/sample14/Ex01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/springtest/src/main/java/sample14/Ex01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/springtest/src/main/java/sample14/beans14.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/springtest/src/main/resources/beans14.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/springtest/src/main/java/sample15/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/springtest/src/main/java/sample15/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/springtest/src/main/java/sample15/BookDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/springtest/src/main/java/sample15/BookDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/springtest/src/main/java/sample15/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/springtest/src/main/java/sample15/BookServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/springtest/src/main/java/sample15/Ex01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/springtest/src/main/java/sample15/Ex01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/springtest/src/main/java/sample15/beans15.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/springtest/src/main/resources/beans15.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/springtest/src/main/java/sample16/Ex01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/springtest/src/main/java/sample16/Ex01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/springtest/src/main/java/sample16/beans16.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/springtest/src/main/resources/beans16.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/springtest/src/main/java/sample17/Ex01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/springtest/src/main/java/sample17/Ex01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/springtest/src/main/java/sample17/beans17.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/springtest/src/main/resources/beans17.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/springtest/src/main/resources/beans08.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/springtest/src/main/resources/beans08.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +131,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -89,8 +149,10 @@
     </option>
   </component>
   <component name="ProjectId" id="1P6BVZ2Jy7Vdv0M2GLvwncoeHdC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="oracle" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="C:/oraclexe/app/oracle/product/11.2.0/server/jdbc/lib/ojdbc6.jar!/" />
@@ -98,7 +160,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.20391516" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -280,12 +342,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@3e296b3e" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@4f64c0e7" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@3e296b3e" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@220a0d94" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@4f64c0e7" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@35b6a829" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -320,11 +382,30 @@
       <workItem from="1565347340362" duration="37129000" />
       <workItem from="1565685433867" duration="2171000" />
       <workItem from="1565749096286" duration="60000" />
+      <workItem from="1565758434201" duration="17949000" />
+      <workItem from="1566374333296" duration="148000" />
+      <workItem from="1566442231216" duration="739000" />
+      <workItem from="1566454419430" duration="951000" />
+      <workItem from="1566543000320" duration="1000" />
+      <workItem from="1566793407453" duration="602000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ex03$uploadForm_jsp__1_.ic" NAME="uploadForm.jsp (1) Coverage Results" MODIFIED="1565228119892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

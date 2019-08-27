@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 /*@Component*/
 @Service
 public class BookServiceImpl implements BookService {
+
 	@Autowired
 	private BookDao bd;
 

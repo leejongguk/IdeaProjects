@@ -51,6 +51,6 @@
             base-package="aop" />
 
     <aop:aspectj-autoproxy />
-
+    <context:component-scan base-package="task" />
     <task:annotation-driven />
 </beans>

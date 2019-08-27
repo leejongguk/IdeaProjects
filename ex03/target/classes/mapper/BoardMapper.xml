@@ -31,19 +31,19 @@
 		]]>
 	</select>
 
-	<insert id="insert"><![CDATA[
+	<insert id="insert">
 		insert into board (bno,title,content,writer)
 		values (seq_board.nextval, #{title}, #{content}, #{writer})
-	]]></insert>
+	</insert>
 
 	<insert id="insertSelectKey">
 
 		<selectKey keyProperty="bno" order="BEFORE"
-				   resultType="long"><![CDATA[
+				   resultType="long">
 			select seq_board.nextval from dual
-		]]></selectKey>
+		</selectKey>
 
-		"insert" into board (bno,title,content, writer)
+		insert into board (bno,title,content, writer)
 		values (#{bno}, #{title}, #{content}, #{writer})
 	</insert>
 

@@ -1,14 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="826ca2a0-17ee-407e-b433-914e2f68bafe" name="Default Changelist" comment="" />
+    <list default="true" id="826ca2a0-17ee-407e-b433-914e2f68bafe" name="Default Changelist" comment="ex01">
+      <change afterPath="$PROJECT_DIR$/../../Ex06_2/src/main/java/controller/CommonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ex06_2/src/main/java/service/BoardServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/beans07.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex03/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex03/out/artifacts/ex03_war_exploded/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex03/out/artifacts/ex03_war_exploded/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex03/out/artifacts/ex03_war_exploded/WEB-INF/classes/controller/BoardController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex03/out/artifacts/ex03_war_exploded/WEB-INF/classes/controller/BoardController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex03/out/artifacts/ex03_war_exploded/WEB-INF/classes/controller/UploadController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex03/out/artifacts/ex03_war_exploded/WEB-INF/classes/controller/UploadController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex03/out/artifacts/ex03_war_exploded/WEB-INF/classes/domain/BoardAttachVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex03/out/artifacts/ex03_war_exploded/WEB-INF/classes/domain/BoardAttachVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex03/out/artifacts/ex03_war_exploded/WEB-INF/classes/domain/BoardVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex03/out/artifacts/ex03_war_exploded/WEB-INF/classes/domain/BoardVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex03/out/artifacts/ex03_war_exploded/WEB-INF/classes/domain/Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex03/out/artifacts/ex03_war_exploded/WEB-INF/classes/domain/Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex03/out/artifacts/ex03_war_exploded/WEB-INF/classes/mapper/BoardAttachMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex03/out/artifacts/ex03_war_exploded/WEB-INF/classes/mapper/BoardAttachMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex03/out/artifacts/ex03_war_exploded/WEB-INF/classes/mapper/BoardAttachMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex03/out/artifacts/ex03_war_exploded/WEB-INF/classes/mapper/BoardAttachMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex03/out/artifacts/ex03_war_exploded/WEB-INF/classes/mapper/BoardMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex03/out/artifacts/ex03_war_exploded/WEB-INF/classes/mapper/BoardMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex03/out/artifacts/ex03_war_exploded/WEB-INF/classes/mapper/BoardMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex03/out/artifacts/ex03_war_exploded/WEB-INF/classes/mapper/BoardMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex03/out/artifacts/ex03_war_exploded/WEB-INF/classes/service/BoardService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex03/out/artifacts/ex03_war_exploded/WEB-INF/classes/service/BoardService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex03/out/artifacts/ex03_war_exploded/WEB-INF/classes/service/BoardServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex03/out/artifacts/ex03_war_exploded/WEB-INF/classes/service/BoardServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex03/out/artifacts/ex03_war_exploded/WEB-INF/views/board/modify.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex03/out/artifacts/ex03_war_exploded/WEB-INF/views/board/modify.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex03/target/classes/controller/BoardController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex03/target/classes/controller/BoardController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex03/target/classes/controller/UploadController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex03/target/classes/controller/UploadController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex03/target/classes/domain/BoardAttachVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex03/target/classes/domain/BoardAttachVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex03/target/classes/domain/BoardVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex03/target/classes/domain/BoardVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex03/target/classes/domain/Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex03/target/classes/domain/Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex03/target/classes/mapper/BoardAttachMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex03/target/classes/mapper/BoardAttachMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex03/target/classes/mapper/BoardAttachMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex03/target/classes/mapper/BoardAttachMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex03/target/classes/mapper/BoardMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex03/target/classes/mapper/BoardMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex03/target/classes/mapper/BoardMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex03/target/classes/mapper/BoardMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex03/target/classes/service/BoardService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex03/target/classes/service/BoardService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex03/target/classes/service/BoardServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex03/target/classes/service/BoardServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springtest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springtest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample07/Ex01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sample07/Ex01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample07/MesageBeanImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sample07/MessageBeanImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample07/beans07.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/beans12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample08/MessageBeanImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sample08/MessageBeanImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample09/Ex01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sample09/Ex01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample09/beans09.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/beans09.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample10/Ex01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sample10/Ex01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample10/beans10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/beans10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample11/Ex01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sample11/Ex01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample11/beans11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/beans11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample12/Ex01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sample12/Ex01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample12/beans12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample12/service/BookSericeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sample12/service/BookServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample13/Ex01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sample13/Ex01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample13/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sample13/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample13/beans13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/beans13.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample14/Ex01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sample14/Ex01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample14/beans14.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/beans14.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample15/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sample15/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample15/BookDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sample15/BookDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample15/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sample15/BookServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample15/Ex01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sample15/Ex01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample15/beans15.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/beans15.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample16/Ex01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sample16/Ex01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample16/beans16.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/beans16.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample17/Ex01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sample17/Ex01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample17/beans17.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/beans17.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/beans08.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/beans08.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1Pl9sCJJ5FsjN4uiHNIeOrliDlZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../hello" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.20391516" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kkkuk\IdeaProjects\spring\springtest\src\main\resources" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kkkuk\IdeaProjects\spring\springtest" />
+      <recent name="C:\Users\kkkuk\IdeaProjects\spring\springtest\src\main\resources" />
+      <recent name="C:\Users\kkkuk\IdeaProjects\spring\springtest\src\main\java" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -22,10 +104,148 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Application.Ex01 (1)">
+    <configuration name="Ex01 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sample15.Ex01" />
+      <module name="springtest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample15.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex01 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sample01.Ex01" />
+      <module name="springtest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex01 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sample08.Ex01" />
+      <module name="springtest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample08.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex01 (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sample09.Ex01" />
+      <module name="springtest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample09.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex01 (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sample12.Ex01" />
+      <module name="springtest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sample07.Ex01" />
+      <module name="springtest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample07.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Ex01 (1)" />
+        <item itemvalue="Application.Ex01 (5)" />
+        <item itemvalue="Application.Ex01 (4)" />
+        <item itemvalue="Application.Ex01 (3)" />
+        <item itemvalue="Application.Ex01 (3)" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="826ca2a0-17ee-407e-b433-914e2f68bafe" name="Default Changelist" comment="" />
+      <created>1566438020997</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566438020997</updated>
+      <workItem from="1566438022200" duration="263000" />
+      <workItem from="1566778449059" duration="96000" />
+      <workItem from="1566778602699" duration="11825000" />
+      <workItem from="1566864909127" duration="937000" />
+    </task>
+    <task id="LOCAL-00001" summary="ex01">
+      <created>1566783285058</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1566783285058</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ex01" />
+    <option name="LAST_COMMIT_MESSAGE" value="ex01" />
   </component>
 </project>

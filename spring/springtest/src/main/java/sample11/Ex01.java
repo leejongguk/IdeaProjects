@@ -7,7 +7,7 @@ import sample11.service.ProductService;
 
 public class Ex01 {
 	public static void main(String[] args) {
-		ApplicationContext ac = new GenericXmlApplicationContext("/sample11/beans11.xml");
+		ApplicationContext ac = new GenericXmlApplicationContext("/beans11.xml");
 		ProductService ps = (ProductService) ac.getBean("ps");
 		Product product = ps.getProduct();
 		System.out.println(product);

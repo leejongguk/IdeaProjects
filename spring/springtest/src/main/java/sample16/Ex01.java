@@ -1,7 +1,6 @@
 package sample16;
 
 import java.util.Collection;
-import java.util.List;
 import java.util.Scanner;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -10,7 +9,7 @@ public class Ex01 {
 	static MemberService ms = null;
 
 	public static void main(String[] args) {
-		ApplicationContext ac = new ClassPathXmlApplicationContext("/sample16/beans16.xml");
+		ApplicationContext ac = new ClassPathXmlApplicationContext("/beans16.xml");
 		ms = (MemberService) ac.getBean("ms");
 		Scanner sc = new Scanner(System.in);
 		while (true) {

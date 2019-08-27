@@ -6,7 +6,8 @@ import org.springframework.stereotype.Repository;
 /*@Component*/
 @Repository
 public class BookDaoImpl implements BookDao {
-	public Book getBook(String title) {
-		return new Book(title, 25000);
-	}
+    public Book getBook(String title) {
+
+        return new Book(title, 25000);
+    }
 }

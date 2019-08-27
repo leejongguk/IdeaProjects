@@ -10,6 +10,7 @@ public class Book {
 	}
 
 	public String toString() {
+
 		return "책[제목:" + title + ", 가격:" + price + "]";
 	}
 }
