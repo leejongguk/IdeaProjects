@@ -2,7 +2,16 @@
   pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
+<%@ taglib prefix="sec" uri="http://www.springframework.org/security/tags"%>
 <%@include file="../includes/header.jsp"%>
+
+<sec:authentication property="principal" var="pinfo" />
+
+<sec:authorize access="isAuthenticated()">
+    <c:if test="${pinfo.username eq board.writer}">
+        <button data-oper="modify" class="btn btn-default">Modify</button>
+    </c:if>
+</sec:authorize>
 
 <div class="row">
   <div class="col-lg-12">

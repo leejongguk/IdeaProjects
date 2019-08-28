@@ -22,7 +22,7 @@
 
 <!--        <security:form-login/>-->
 <!--        <security:form-login login-page="/customLogin" authentication-success-handler-ref="customLoginSuccess" />-->
-        <security:form-login login-page="customLogin" />
+        <security:form-login login-page="/customLogin" />
         <!-- <security:csrf disabled="true" /> -->
 
         <security:logout logout-url="/customLogout" invalidate-session="true" />

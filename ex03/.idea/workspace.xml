@@ -7,8 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="311868ef-ffed-4b86-b92a-fb0949873482" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../hello/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hello/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello/src/test/resources/log4j.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hello/src/test/resources/log4j.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex06_2/web/WEB-INF/security-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex06_2/web/WEB-INF/security-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex06_2/web/WEB-INF/views/board/get.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex06_2/web/WEB-INF/views/board/get.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex06_2/web/WEB-INF/views/board/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex06_2/web/WEB-INF/views/board/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex06_2/web/WEB-INF/views/customLogin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex06_2/web/WEB-INF/views/customLogin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex06_2/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex06_2/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch07/src/main/java/com/ch/ch07/UploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch07/src/main/java/com/ch/ch07/UploadController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch07/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch07/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ReplyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/ReplyController.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -335,6 +342,8 @@
       <workItem from="1566543000320" duration="1000" />
       <workItem from="1566793407453" duration="602000" />
       <workItem from="1566868904898" duration="64000" />
+      <workItem from="1566959531821" duration="97000" />
+      <workItem from="1566960310668" duration="1567000" />
     </task>
     <servers />
   </component>
