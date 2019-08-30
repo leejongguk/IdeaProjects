@@ -6,7 +6,7 @@
 <sqlMap namespace="memberns">
 
 	<typeAlias alias="member" type="iBatis1.model.Member" />
-	
+	<!-- property=column 다를때 resultMap -->
 	<resultMap id="memberResult" class="member">
 		<result property="id" column="id" />
 		<result property="email" column="email" />
@@ -14,6 +14,10 @@
 		<result property="name" column="name" />
 		<result property="regdate" column="regdate" />
 	</resultMap>
+
+	<!-- mybatis parameterType, resultType
+			ibatis parameterClass, resultClass -->
+
 	<select id="select" parameterClass="String" resultClass="member">
 		select * from member3 where id = #id#
 	</select>
